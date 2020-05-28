@@ -5,6 +5,12 @@ window.addEventListener('load', ()=>{
     text_tres = document.querySelector("#text_tres")
 
     div_color = document.querySelector('.color')
+
+    text_um.value = 0
+    text_dois.value = 0
+    text_tres.value = 0
+
+    change_color()
 })
 
 let range_um = document.querySelector('#um')
@@ -19,15 +25,15 @@ let div_color = null
 
 let valor = null
 
- range_um.addEventListener('change',()=>{
+ range_um.addEventListener('input',()=>{
     text_um.value = range_um.value
     change_color()
  })
- range_dois.addEventListener('change',()=>{
+ range_dois.addEventListener('input',()=>{
     text_dois.value = range_dois.value
     change_color()
  })
- range_tres.addEventListener('change',()=>{
+ range_tres.addEventListener('input',()=>{
     text_tres.value = range_tres.value
     change_color()
  })
