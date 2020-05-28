@@ -1,0 +1,28 @@
+.label_color{
+    padding: 20px;
+}
+.range_color{
+    margin: 10px;
+}
+#dois{
+    margin-left: 32px;
+}
+#tres{
+    margin-left: 38px;
+}
+.text_dois{
+    margin-left: 2px;
+}
+.text_tres{
+    margin-left: 3px;
+}
+.color{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    margin-left: 140px;
+}
+
+.change_color{
+    background-color: rgb(red, green, blue);
+}

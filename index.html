@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title></title>
+</head>
+<body>
+    <label class="label_color">(R) Vermelho</label>
+    <input class="range_color" id="um" type="range" max="255" min="0" value="0" onchange="change_one()">
+    <input type="text" id="text_um" disabled>
+    <br>
+    <label class="label_color">(G) Verde</label>
+    <input class="range_color" id="dois" type="range"  max="255" min="0" value="0"onchange="change_one()">
+    <input class="text_dois" type="text" id="text_dois" disabled>
+    <br>
+    <label class="label_color">(B) Azul</label>
+    <input class="range_color" id="tres" type="range"  max="255" min="0" value="0"onchange="change_one()">
+    <input class="text_tres" type="text" id="text_tres" disabled>
+
+    <div class="color"></div>
+    <script src="./js/script.js"></script>
+</body>
+</html>
